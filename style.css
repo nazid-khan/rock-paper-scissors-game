@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e1e0e0;
+}
+h1{
+    text-align: center;
+
+}
+.container{
+    height: 100vmin;
+    width: 100vmin;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    padding-top: 5rem;
+}
+button{
+    height: 5rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
