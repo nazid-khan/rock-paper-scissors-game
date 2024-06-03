@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissor</title>
+    <link rel="icon" href="images/rps_logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1> 
-    <div class="container">
+    <h1>Rock Paper Scissors</h1>
 
-        <button id="Rock" onclick="
-         playGame('rock');
-         ">Rock</button>
+    <div class="container" >
+      
+      <img src="images/rock (1).png" alt="">
+      <img src="images/paper(1).jpeg" alt="">
+      <img src="images/scissor(1).jpeg" alt="">
 
-        
-        <button id="Paper" onclick="
-        playGame('paper');
-         ">Paper</button>
-        
-        <button id="scissors" onclick="
-        playGame('scissor');
-        ">Scissors</button>
+      <button id="Rock" onclick="
+       playGame('rock');
+       ">Rock</button>
+
+      <button id="Paper" onclick="
+      playGame('paper');
+       ">Paper</button>
+          
+      <button id="scissors" onclick="
+      playGame('scissor');
+      ">Scissors</button>
 
     </div>
 
-    
+
+
     <script src="script.js">
         
       function playGame(playerMove) {
