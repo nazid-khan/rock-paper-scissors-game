@@ -30,6 +30,10 @@ img{
     width: 300px;
     transform: rotate(300deg);
     mix-blend-mode: multiply; 
+    border-radius: 35%;
+}
+img:hover{
+    cursor: pointer;
 }
 button{
     height: 50px;
@@ -44,3 +48,25 @@ button{
     justify-content: center;
     margin: 50px;
 }
+button:hover{
+    cursor: pointer;
+}
+
+#msg{
+    background-color: lavender;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
